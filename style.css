@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    color: hotpink;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "Funnel Display", sans-serif;
+    font-size: 60px;
+    line-height: 1;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+
+#hero video {
+    border-radius: 20px;
+    width: 680px;
+    height: 600px;
+    object-fit: cover;
+}
+
+#hero audio {
+    width: 100%;
+    height: 30px;
+}
+
+#idk {
+    display: flex;
+    gap: 2px;
+    margin-top: 2px;
+}
+
+#idk a {
+    background-color: white;
+    color: hotpink;
+    padding: 25px;
+    flex-grow: 1;
+    border-radius: 20px;
+
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Outfit', Arial;
+}
+
+#idk a:hover {
+    color: purple;
+}
+
+#footer .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: white;
+}
+
+#footer h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #73727a;
+    line-height: 1.7;
+}
+
+#footer p {
+    color: #73727a;
+}
